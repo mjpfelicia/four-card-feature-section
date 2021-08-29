@@ -29,6 +29,7 @@
     .conteudo_total {
         display: grid;
         grid-gap: 20px;
+        padding: 20px;
     }
     
     .primeiro {
@@ -135,10 +136,10 @@
         }
         .reliable_tituto_1 {
             font-size: 2.3em;
-            grid-row: 1;
+            margin: 20px 0px;
         }
         .reliable_texto_p {
-            grid-row: 2;
+            padding: 0px calc(5vw * 2 * 2);
         }
         .supervisor {
             grid-column: 1/3;
