@@ -1,10 +1,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
-    body,
-    p {
+    body {
         margin: 0px;
         padding: 0px;
         font-size: 15px;
         font-family: "Poppins";
+        background-color: var(--cor-cinza-muito-claro);
     }
     
      :root {
@@ -14,7 +14,7 @@
         --cor-azul: hsl(212, 86%, 64%);
         --cor-azul-muito-escuro: hsl(234, 12%, 34%);
         --cor-azul-acinzentado: hsl(229, 6%, 66%);
-        --cor-ainza-muito-claro: hsl(0, 0%, 98%);
+        --cor-cinza-muito-claro: hsl(0, 0%, 98%);
     }
     
     main {
@@ -42,6 +42,7 @@
         padding: 20px;
         flex-direction: column;
         box-shadow: 4px 7px 15px 2px hsl(229deg 6% 66% / 50%);
+        background: white;
     }
     
     .reliable_tituto_1 {
